@@ -1,4 +1,4 @@
-#Links de interes
+# REFERENCIAS
 
 ## 🧹 Clean Code
 - ### Revisa información relacionada a Clean Code y buenas practicas en desarrollo de software  [aquí](./cleanCode.md)
