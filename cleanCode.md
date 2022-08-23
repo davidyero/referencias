@@ -10,7 +10,7 @@
 ### Versión digital
 - ### 🌏 [Super resumen en español](https://github.com/andersontr15/clean-code-javascript-es)
 - ### 🌏 [Super resumen en inglés](https://github.com/ryanmcdermott/clean-code-javascript)
-- ### 🏴‍☠️ PDF 🏴‍☠️ Basta buscar en google ❌
+- ### 🏴‍☠️ [PDF](https://www.pdfdrive.com/c%C3%B3digo-limpio-e196871466.html) 🏴‍☠️ ❌
 
 # 📼 Videos
 - ### [Hola Mundo Habla de Clean Code](https://www.youtube.com/watch?v=uQfm6YaJTJI)
