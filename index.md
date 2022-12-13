@@ -5,4 +5,4 @@
 
 
 ## 📚 Librería de Componentes con React y Storybook
-- ### Paso a paso para crear una librería de componentes en React con Storybook  [aquí](./cleanCode.md)
+- ### Paso a paso para crear una librería de componentes en React con Storybook  [aquí](./crearLibreriaReact.md)
