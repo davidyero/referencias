@@ -4,26 +4,34 @@
 
 1. Crear una carpena donde se va a almacenar la librería
 2. Correr el siguiente comando ```npm install --save-dev react react-dom typescript @types/react``` para instalar las dependencias de react
-3. Correr el siguiente comando ```npx tsc --init``` para crear el archivo tsconfig.json
-4. Agregar esta configuración en el archivo de tsconfig.json
+3. Correr el siguiente comando ```npm install --save-dev sass style-loader css-loader @storybook/preset-scss sass-loader@10``` si quieres trabajar con SASS, y agregar la siguiente linea en el main.js de la configuración de storybookxz
+```
+"addons": [
+    ...
+    "@storybook/preset-scss"
+]
+```
+4. Correr el siguiente comando ```npx tsc --init``` para crear el archivo tsconfig.json
+5. Agregar esta configuración en el archivo de tsconfig.json
 
-```{
-"compilerOptions": {
-    "jsx": "react",
-    "target": "es2016",
-    "outDir": "dist",
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ES2020",
-    "allowSyntheticDefaultImports": true,
-    "moduleResolution": "Node",
-    "declaration": true,
-    "declarationDir": "dist"
-},
-"include": [
-    "stories"
+```
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "es2016",
+        "outDir": "dist",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ES2020",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "Node",
+        "declaration": true,
+        "declarationDir": "dist"
+    },
+    "include": [
+        "stories"
     ]
 }
 ```
