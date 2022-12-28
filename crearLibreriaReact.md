@@ -4,7 +4,7 @@
 
 1. Crear una carpeta donde se va a almacenar la librería
 2. Correr el siguiente comando ```npm install --save-dev react react-dom typescript @types/react``` para instalar las dependencias de react
-3. Correr el siguiente comando ```npm install --save-dev sass style-loader css-loader @storybook/preset-scss sass-loader@10``` si quieres trabajar con SASS, y agregar la siguiente linea en el main.js de la configuración de storybookxz
+3. Correr el siguiente comando ```npm install --save-dev sass style-loader css-loader @storybook/preset-scss sass-loader@10``` si quieres trabajar con SASS, y agregar la siguiente linea en el main.js de la configuración de storybook
 ```
 "addons": [
     ...
