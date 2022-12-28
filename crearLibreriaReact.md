@@ -36,18 +36,18 @@
 }
 ```
 
-5. Correr el siguiente comando ```npx sb init``` para instalar Storybook
+6. Correr el siguiente comando ```npx sb init``` para instalar Storybook
 
-6. Correr el siguiente comando ```npm run storybook``` iniciar Storybook
+7. Correr el siguiente comando ```npm run storybook``` iniciar Storybook
 
 ### Hasta este paso puede ser un proyecto normal, lo siguiente es necesario SOLO para crear una librería
 
-7.  Correr el siguiente comando ```npm i --save-dev rollup @rollup/plugin-node-resolve @rollup/plugin-babel rollup-plugin-uglify rollup-plugin-postcss rollup-plugin-typescript2 rollup-plugin-peer-deps-external``` 
+8.  Correr el siguiente comando ```npm i --save-dev rollup @rollup/plugin-node-resolve @rollup/plugin-babel rollup-plugin-uglify rollup-plugin-postcss rollup-plugin-typescript2 rollup-plugin-peer-deps-external``` 
 para instalar las dependencias necesarias para genera la librería 
 
-8. Crear el archivo ```rollup.config.js``` en la raíz del proyecto
+9. Crear el archivo ```rollup.config.js``` en la raíz del proyecto
 
-9. En el archivo ```rollup.config.js``` agregar la siguiente configuración
+10. En el archivo ```rollup.config.js``` agregar la siguiente configuración
 ```
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import resolve from "@rollup/plugin-node-resolve";
@@ -77,18 +77,15 @@ export default {
 }
 ```
 
-10. Agregar el siguiente script en el archivo package.json```"buildLib": "rollup -c"```
+11. Agregar el siguiente script en el archivo package.json```"buildLib": "rollup -c"```
 
-11. Crear una cuenta en npm account - https://www.npmjs.com/
+12. Crear una cuenta en npm account - https://www.npmjs.com/
 
-12. Correr el comando ```npm login``` y autenticarse
+13. Correr el comando ```npm login``` y autenticarse
 
-13. Agregar nombre y versión del la dependencia 
+14. Agregar nombre y versión del la dependencia 
 ```
 "name": "@[tu-usuario]/react-library",
 "version": "1.0.0",
 ```
-14. Correr el comando ```npm publish --access=public``` para publicar la librería en NPM
-
-
-
+15. Correr el comando ```npm publish --access=public``` para publicar la librería en NPM
